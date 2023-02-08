@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{0EA0B4D7-A59B-4331-9432-028D675594A5}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TrabalhoFinal PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrabalhoFinal/Views/Formulario/Submeter.cshtml">
+    <Files>
+      <File FileName="TrabalhoFinal/Controllers/HomeController.cs" Line="17" Column="10" />
+      <File FileName="TrabalhoFinal/Views/Informacao/Index.cshtml" Line="13" Column="59" />
+      <File FileName="TrabalhoFinal/Views/Sobre/Index.cshtml" Line="25" Column="1" />
+      <File FileName="TrabalhoFinal/Views/Formulario/Submeter.cshtml" Line="24" Column="19" />
+      <File FileName="TrabalhoFinal/Views/Formulario/Index.cshtml" Line="75" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TrabalhoFinal" expanded="True">
+            <Node name="TrabalhoFinal" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Formulario" expanded="True">
+                  <Node name="Submeter.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

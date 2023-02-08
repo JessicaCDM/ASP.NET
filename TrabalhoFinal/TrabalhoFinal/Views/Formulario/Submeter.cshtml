@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Pessoas já submetidas";
+}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Distrito</th>
+      <th scope="col">Conselho</th>
+    </tr>
+  </thead>
+  <tbody class="table-hover">
+    <tr>
+      <th scope="row">1</th>
+      <td>Jessica Camilo Donzelli Miranda</td>
+      <td>jessica.donzelli@gmail.com</td>
+      <td>Setúbal</td>
+      <td>Palmela</td>
+    </tr>
+  </tbody>
+</table><br/>
+<div class="col-12">
+    <a role="button" class="btn btn-primary" asp-controller="Formulario" asp-action="Editar">Editar</a>
+    <a role="button" class="btn btn-secondary" asp-controller="Formulario" asp-action="Index">Voltar</a>
+    <a role="button" class="btn btn-danger" asp-controller="Formulario" asp-action="Apagar">Apagar</a>
+</div>

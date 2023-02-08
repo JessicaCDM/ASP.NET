@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TrabalhoFinal
+build_property.RootNamespace = TrabalhoFinal
+build_property.ProjectDir = /Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Formulario/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybXVsYXJpby9FZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Formulario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybXVsYXJpby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Formulario/Submeter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybXVsYXJpby9TdWJtZXRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Informacao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mb3JtYWNhby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Sobre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-udcxvtljup

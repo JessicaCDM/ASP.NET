@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Formulário";
+}
+<div class="text" asp-action="Submeter">
+    <h1 class="display-8">Preencha o formulário</h1>
+
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="inputNome4" placeholder="Insira o Nome">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Insira o Email">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Rua: ">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">País</label>
+            <input disabled class="form-control" id="inputAddress2" placeholder="Portugal">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Distrito</label>
+            <select id="inputState" class="form-select">
+                <option selected>Escolher...</option>
+                <option value="aveiro">Aveiro</option>
+                <option value="beja">Beja</option>
+                <option value="braga">Braga</option>
+                <option value="braganca">Bragança</option>
+                <option value="castelo">Castelo Branco</option>
+                <option value="coimbra">Coimbra</option>
+                <option value="evora">Évora</option>
+                <option value="faro">Faro</option>
+                <option value="guarda">Guarda</option>
+                <option value="leiria">Leiria</option>
+                <option value="lisboa">Lisboa</option>
+                <option value="portalegre">Portalegre</option>
+                <option value="porto">Porto</option>
+                <option value="santarem">Santarém</option>
+                <option value="setubal">Setúbal</option>
+                <option value="viana">Viana do Castelo</option>
+                <option value="vila">Vila Real</option>
+                <option value="viseu">Viseu</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Concelho</label>
+            <select id="inputState" class="form-select">
+                <option selected>Escolher...</option>
+                <option value="alcacer">Alcácer do Sal</option>
+                <option value="alcochete">Alcochete</option>
+                <option value="almada">Almada</option>
+                <option value="barreiro">Barreiro</option>
+                <option value="grandola">Grândola</option>
+                <option value="moita">Moita</option>
+                <option value="montijo">Montijo</option>
+                <option value="palmela">Palmela</option>
+                <option value="santiago">Santiago do Cacém</option>
+                <option value="seixal">Seixal</option>
+                <option value="sesimbra">Sesimbra</option>
+                <option value="setubal">Setúbal</option>
+                <option value="sines">Sines</option>
+            </select>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Concorda com esse formulário
+                </label>
+            </div>
+        </div><br/>
+        <div class="col-12">
+            <a role="button" class="btn btn-success" asp-controller="Formulario" asp-action="Index">Submeter</a>
+            <a role="button" class="btn btn-success" asp-controller="Formulario" asp-action="Submeter">Lista</a>
+        </div>
+    </form>
+ </div>  
