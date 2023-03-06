@@ -17,3 +17,6 @@ body {
     margin-bottom: 60px;
     background-color: ghostwhite;
 }
+.field-validation-error {
+    color: orangered;
+}

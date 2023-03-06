@@ -1,28 +1,40 @@
-﻿@{
+﻿@model List<RegistoModel>
+@{
     ViewData["Title"] = "Pessoas já submetidas";
 }
-<table class="table table-hover">
+<table class="table table-hover" id="example">
   <thead>
     <tr>
       <th scope="col">#</th>
       <th scope="col">Nome</th>
       <th scope="col">E-mail</th>
+      <th scope="col">Endereço</th>
       <th scope="col">Distrito</th>
       <th scope="col">Conselho</th>
+      <th scope="col">Selecionar</th>
     </tr>
   </thead>
-  <tbody class="table-hover">
-    <tr>
-      <th scope="row">1</th>
-      <td>Jessica Camilo Donzelli Miranda</td>
-      <td>jessica.donzelli@gmail.com</td>
-      <td>Setúbal</td>
-      <td>Palmela</td>
-    </tr>
+    <tbody class="table-hover">
+      @if (Model != null && Model.Any())
+        {
+            foreach(RegistoModel registo in Model)
+            {
+                <tr>
+                    <th scope="row">@registo.Id</th>
+                    <td>@registo.Nome</td>
+                    <td>@registo.Email</td>
+                    <td>@registo.Endereco</td>
+                    <td>@registo.Distrito</td>
+                    <td>@registo.Conselho</td>
+                    <td><input type="checkbox" name="ids[]" value="@registo.Id"></td>
+                </tr>
+            }
+        }
   </tbody>
 </table><br/>
+
 <div class="col-12">
-    <a role="button" class="btn btn-primary" asp-controller="Formulario" asp-action="Editar">Editar</a>
+    <a role="button" class="btn btn-primary" asp-controller="Formulario" asp-action="EditarSelecionado" onclick="getSelectedIds()">Editar</a>
     <a role="button" class="btn btn-secondary" asp-controller="Formulario" asp-action="Index">Voltar</a>
-    <a role="button" class="btn btn-danger" asp-controller="Formulario" asp-action="Apagar">Apagar</a>
+    <a role="button" class="btn btn-danger" asp-controller="Formulario" asp-action="ConfirmarApagar">Apagar</a>
 </div>

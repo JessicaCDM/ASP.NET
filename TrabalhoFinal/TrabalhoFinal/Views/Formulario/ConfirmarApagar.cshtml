@@ -1,0 +1,18 @@
+﻿@model RegistoModel
+@{
+    ViewData["Title"] = "Apagar Formulário";
+}
+<div div class="text-center">
+    <h1 class="display-4">Apagar Registo</h1>
+    <br/>
+    <form class="row g-3" asp-controller="Formulario" asp-action="Apagar" method="post">
+        <div class="col-md-6">
+            <label for="inputId4" class="form-label">ID</label>
+            <input type="text" asp-for="Id" class="form-control" id="inputId4">
+        </div>
+    </form>
+    <h4>Deseja apagar o registo ?</h4>
+    <br/>
+    <button type="submit" class="btn btn-danger">Confirmar</button>
+    <a class="btn btn-primary btn-block" role="button" asp-controller="Formulario" asp-action="Index">Cancelar</a>
+</div>

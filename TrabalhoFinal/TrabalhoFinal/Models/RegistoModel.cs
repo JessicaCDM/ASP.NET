@@ -15,5 +15,11 @@ namespace TrabalhoFinal.Models
 
         [Required(ErrorMessage = "Insira o Endereço")]
         public string Endereco { get; set; }
+        
+        [Required(ErrorMessage = "Escolha um distrito")]
+        public string Distrito { get; set; }
+
+        [Required(ErrorMessage = "Escolha um conselho")]
+        public string Conselho { get; set; }
     }
 }

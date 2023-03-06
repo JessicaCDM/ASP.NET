@@ -9,57 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TrabalhoFinal
 build_property.RootNamespace = TrabalhoFinal
-build_property.ProjectDir = /Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/
+build_property.ProjectDir = E:\5415 - Web\ASP.NET\TrabalhoFinal - Cópia\TrabalhoFinal\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal
+build_property.MSBuildProjectDirectory = E:\5415 - Web\ASP.NET\TrabalhoFinal - Cópia\TrabalhoFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Formulario/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybXVsYXJpby9FZGl0YXIuY3NodG1s
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Formulario/ConfirmarApagar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb1xDb25maXJtYXJBcGFnYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Formulario/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybXVsYXJpby9JbmRleC5jc2h0bWw=
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Formulario/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Formulario/Submeter.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybXVsYXJpby9TdWJtZXRlci5jc2h0bWw=
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Formulario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Formulario/Submeter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXVsYXJpb1xTdWJtZXRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Informacao/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mb3JtYWNhby9JbmRleC5jc2h0bWw=
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Informacao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYWNhb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Sobre/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvSW5kZXguY3NodG1s
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Sobre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jessica/Documents/CET/5415 - /TrabalhoFinal/TrabalhoFinal/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-udcxvtljup
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/5415 - Web/ASP.NET/TrabalhoFinal - Cópia/TrabalhoFinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-szauze40t3

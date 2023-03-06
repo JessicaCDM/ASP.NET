@@ -1,21 +1,41 @@
-﻿@{
+﻿@model RegistoModel
+@{
     ViewData["Title"] = "Formulário";
 }
+
 <div class="text" asp-action="Submeter">
     <h1 class="display-8">Preencha o formulário</h1>
 
-    <form class="row g-3">
+    @if(TempData["MensagemSuccess"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show position-fixed" style="z-index: 11; top: 1rem; right:1rem" role="alert">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            @TempData["MensagemSuccess"]
+        </div>
+    }
+ 
+    @if(TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @TempData["MensagemErro"]
+        </div>
+    }
+
+    <form class="row g-3" asp-controller="Formulario" asp-action="Criar" method="post">
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="inputNome4" placeholder="Insira o Nome">
+            <input type="text" asp-for="Nome" class="form-control" id="inputNome4" placeholder="Insira o Nome">
+            @Html.ValidationMessageFor(x => x.Nome)
         </div>
         <div class="col-md-6">
             <label for="inputPassword4" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Insira o Email">
+            <input type="email" asp-for="Email" class="form-control" id="inputEmail4" placeholder="Insira o Email">
+            @Html.ValidationMessageFor(x => x.Email)
         </div>
         <div class="col-12">
             <label for="inputAddress" class="form-label">Endereço</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Rua: ">
+            <input type="text" asp-for="Endereco" class="form-control" id="inputAddress" placeholder="Rua: ">
+            @Html.ValidationMessageFor(x => x.Endereco)
         </div>
         <div class="col-12">
             <label for="inputAddress2" class="form-label">País</label>
@@ -23,7 +43,7 @@
         </div>
         <div class="col-md-4">
             <label for="inputState" class="form-label">Distrito</label>
-            <select id="inputState" class="form-select">
+            <select id="inputState" asp-for="Distrito" class="form-select">
                 <option selected>Escolher...</option>
                 <option value="aveiro">Aveiro</option>
                 <option value="beja">Beja</option>
@@ -47,7 +67,7 @@
         </div>
         <div class="col-md-4">
             <label for="inputState" class="form-label">Concelho</label>
-            <select id="inputState" class="form-select">
+            <select id="inputState" asp-for="Conselho" class="form-select">
                 <option selected>Escolher...</option>
                 <option value="alcacer">Alcácer do Sal</option>
                 <option value="alcochete">Alcochete</option>
@@ -73,8 +93,8 @@
             </div>
         </div><br/>
         <div class="col-12">
-            <a role="button" class="btn btn-success" asp-controller="Formulario" asp-action="Index">Submeter</a>
-            <a role="button" class="btn btn-success" asp-controller="Formulario" asp-action="Submeter">Lista</a>
+            <button type="submit" class="btn btn-success" title="Submeter">Submeter</button>
+            <a role="button" class="btn btn-success" asp-controller="Formulario" asp-action="Submeter" title="Lista">Lista</a>
         </div>
     </form>
  </div>  
