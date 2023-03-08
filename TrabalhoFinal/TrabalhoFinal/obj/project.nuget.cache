@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jNPpp5Gq3w0oBVjxqlMouFJVaXwAzB+99N1UKgIzfZZmq10vAryNJTZZvV2ob7gPVbaL82DRNxzGMVCV9zAySw==",
+  "dgSpecHash": "+CrJSY9fRP5VA9ChEOA/Oe/3pBv1X9xhFP6yc7xf6aMHkXzsQXdCrPM5iVXm+Ed8vH8EEWLecqJZPmXgdwhqrA==",
   "success": true,
-  "projectFilePath": "E:\\5415 - Web\\ASP.NET\\TrabalhoFinal - Cópia\\TrabalhoFinal\\TrabalhoFinal.csproj",
+  "projectFilePath": "D:\\5415\\ASP.NET\\TrabalhoFinal\\TrabalhoFinal\\TrabalhoFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jes_s\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jes_s\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\5415 - Web\\ASP.NET\\TrabalhoFinal - Cópia\\TrabalhoFinal\\TrabalhoFinal.csproj": {}
+    "D:\\5415\\ASP.NET\\TrabalhoFinal\\TrabalhoFinal\\TrabalhoFinal.csproj": {}
   },
   "projects": {
-    "E:\\5415 - Web\\ASP.NET\\TrabalhoFinal - Cópia\\TrabalhoFinal\\TrabalhoFinal.csproj": {
+    "D:\\5415\\ASP.NET\\TrabalhoFinal\\TrabalhoFinal\\TrabalhoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\5415 - Web\\ASP.NET\\TrabalhoFinal - Cópia\\TrabalhoFinal\\TrabalhoFinal.csproj",
+        "projectUniqueName": "D:\\5415\\ASP.NET\\TrabalhoFinal\\TrabalhoFinal\\TrabalhoFinal.csproj",
         "projectName": "TrabalhoFinal",
-        "projectPath": "E:\\5415 - Web\\ASP.NET\\TrabalhoFinal - Cópia\\TrabalhoFinal\\TrabalhoFinal.csproj",
+        "projectPath": "D:\\5415\\ASP.NET\\TrabalhoFinal\\TrabalhoFinal\\TrabalhoFinal.csproj",
         "packagesPath": "C:\\Users\\jes_s\\.nuget\\packages\\",
-        "outputPath": "E:\\5415 - Web\\ASP.NET\\TrabalhoFinal - Cópia\\TrabalhoFinal\\obj\\",
+        "outputPath": "D:\\5415\\ASP.NET\\TrabalhoFinal\\TrabalhoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
